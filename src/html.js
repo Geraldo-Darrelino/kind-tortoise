@@ -18,6 +18,7 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
+    <h1>github and git version control test</h1>
       </body>
     </html>
   )
